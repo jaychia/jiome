@@ -1,0 +1,91 @@
+listusers + listloc + listvenues + listInterests + listgames + listgroups + listgrouptransactions
+
+listusers = [
+	User(postal_code=575097, username="johnlim", password="qwerty", picture="https://c2.staticflickr.com/8/7383/13085002563_7ed0844650_z.jpg"),
+	User(postal_code=787080, username="marcushandsomeyeo", password="qwerty", picture="https://c2.staticflickr.com/8/7383/13085002563_7ed0844650_z.jpg"),
+	User(postal_code=518715, username="shidecatfoo", password="qwerty", picture="https://c2.staticflickr.com/8/7383/13085002563_7ed0844650_z.jpg"),
+	User(postal_code=536450, username="joiesmellytan", password="qwerty", picture="https://c2.staticflickr.com/8/7383/13085002563_7ed0844650_z.jpg"),
+	User(postal_code=600278, username="nitindacooldude", password="qwerty", picture="https://c2.staticflickr.com/8/7383/13085002563_7ed0844650_z.jpg")
+]
+
+listloc = [Location(id=1, name="Raffles Place, Cecil, Marina, People's Park"),
+Location(id=2, name="Anson, Tanjong Pagar"),
+Location(id=3, name="Queenstown, Tiong Bahru"),
+Location(id=4, name="Telok Blangah, Harbourfront"),
+Location(id=5, name="Pasir Panjang, Hong Leong Garden, Clementi New Town"),
+Location(id=6, name="High Street, Beach Road (part)"),
+Location(id=7, name="Middle Road, Golden Mile"),
+Location(id=8, name="Little India"),
+Location(id=9, name="Orchard, Cairnhill, River Valley"),
+Location(id=10, name="Ardmore, Bukit Timah, Holland Road, Tanglin"),
+Location(id=11, name="Watten Estate, Novena, Thomson"),
+Location(id=12, name="Balestier, Toa Payoh, Serangoon"),
+Location(id=13, name="Macpherson, Braddell"),
+Location(id=14, name="Geylang, Eunos"),
+Location(id=15, name="Katong, Joo Chiat, Amber Road"),
+Location(id=16, name="Bedok, Upper East Coast, Eastwood, Kew Drive"),
+Location(id=17, name="Loyang, Changi"),
+Location(id=18, name="Simei, Tampines, Pasir Ris"),
+Location(id=19, name="Serangoon Garden, Hougang, Punggol"),
+Location(id=20, name="Bishan, Ang Mo Kio"),
+Location(id=21, name="Upper Bukit Timah, Clementi Park, Ulu Pandan"),
+Location(id=22, name="Jurong"),
+Location(id=23, name="Hillview, Dairy Farm, Bukit Panjang, Choa Chu Kang"),
+Location(id=24, name="Lim Chu Kang, Tengah"),
+Location(id=25, name="Kranji, Woodgrove, Woodlands"),
+Location(id=26, name="Upper Thomson, Springleaf"),
+Location(id=27, name="Yishun, Sembawang"),
+Location(id=28, name="Seletar")
+]
+
+
+listvenues = [
+Venue(name="Sheltered - Close to Block 112", location_id=20, interest_id=1,	latcoord="1.346411", longcoord="103.848904"),
+Venue(name="Bishan Community Club", location_id=20, interest_id=1,	latcoord="1.349649", longcoord="103.850791"),
+Venue(name="290A Bishan Street 24", location_id=20, interest_id=1,	latcoord="1.35549", longcoord="103.844064"),
+Venue(name="293 Bishan Street 22", location_id=20, interest_id=1,	latcoord="1.356544", longcoord="103.846559"),
+Venue(name="Ang Mo Kio CC", location_id=20, interest_id=1,	latcoord="1.366488", longcoord="103.84081"),
+Venue(name="156 Ang Mo Kio Avenue 4", location_id=20, interest_id=1,	latcoord="1.375186", longcoord="103.840728"),
+Venue(name="Cheng San Community Club", location_id=20, interest_id=1,	latcoord="1.371825", longcoord="103.84949"),
+Venue(name="513 Ang Mo Kio Avenue 8", location_id=20, interest_id=1,	latcoord="1.373117", longcoord="103.849896"),
+Venue(name="861 Ang Mo Kio Avenue", location_id=20, interest_id=1,	latcoord="1.362892", longcoord="103.854005"),
+Venue(name="439 Ang Mo Kio Avenue", location_id=20, interest_id=1,	latcoord="1.373117", longcoord="103.849897"),
+Venue(name="Half Court - 638 Ang Mo Kio Avenue 6", location_id=20, interest_id=1,	latcoord="1.362892", longcoord="103.854006"),
+Venue(name="350 Ang Mo Kio Street 32", location_id=20, interest_id=1,	latcoord="1.373117", longcoord="103.849898"),
+Venue(name="413 Ang Mo Kio Avenue 10", location_id=20, interest_id=1,	latcoord="1.362892", longcoord="103.854007"),
+Venue(name="207-208 Ang Mo Kio Avenue 1", location_id=20, interest_id=1,	latcoord="1.373117", longcoord="103.849899")
+]
+
+listInterests = [
+Interest(id=1, name="Basketball"),
+Interest(id=2, name="Soccer"),
+Interest(id=3, name="Yoga"),
+Interest(id=4, name="Hacking")
+]
+
+listgames = [
+Game(venue_id=1, location_id=20, time="11:11:11", min_players=4, max_players=10, interest_id=1, num=1, group_id=0),
+Game(venue_id=2, location_id=20, time="11:11:11", min_players=4, max_players=8, interest_id=1, num=1, group_id=0),
+Game(venue_id=3, location_id=1, time="11:11:11", min_players=5, max_players=10, interest_id=1, num=1, group_id=0),
+Game(venue_id=4, location_id=1, time="11:11:11", min_players=4, max_players=9, interest_id=1, num=1, group_id=0),
+Game(venue_id=5, location_id=20, time="11:11:11", min_players=7, max_players=10, interest_id=1, num=1, group_id=0),
+Game(venue_id=6, location_id=1, time="11:11:11", min_players=4, max_players=10, interest_id=1, num=1, group_id=0),
+Game(venue_id=6, location_id=1, time="11:11:11", min_players=4, max_players=10, interest_id=1, num=1, group_id=1),
+Game(venue_id=6, location_id=1, time="11:11:11", min_players=4, max_players=10, interest_id=1, num=1, group_id=1),
+Game(venue_id=6, location_id=1, time="11:11:11", min_players=4, max_players=10, interest_id=1, num=1, group_id=2),
+Game(venue_id=6, location_id=1, time="11:11:11", min_players=4, max_players=10, interest_id=1, num=1, group_id=3)
+]
+
+listgroups = [
+Group(location_id = 20, name = "SuperMamaWarriors"),
+Group(location_id = 20, name = "TofuNinjas"),
+Group(location_id = 20, name = "Lanjiaobin")
+]
+
+listgrouptransactions = [
+GroupTransaction(group_id=1, user_id=1),
+GroupTransaction(group_id=2, user_id=3),
+GroupTransaction(group_id=3, user_id=5),
+GroupTransaction(group_id=1, user_id=3),
+GroupTransaction(group_id=2, user_id=1)
+]
